@@ -33,12 +33,12 @@ Additionally, **common typos were replaced with the token `TYPO`**. This helped 
 
 Multiple models were trained and evaluated using **3-fold cross-validation**:
 
-| Model                    | Accuracy |
+| Model                    | Mean F1 Score |
 |--------------------------|----------|
-| Multinomial Naive Bayes  | 70%      |
-| Random Forest            | 88%      |
-| XGBoost                  | 85%      |
-| **BERT** (Transformer)   | **99%**  |
+| Multinomial Naive Bayes  | 64%      |
+| Random Forest            | 84%      |
+| XGBoost                  | 82%      |
+| **BERT** (Transformer)   | **97%**  |
 
 BERT significantly outperformed traditional machine learning models by leveraging deep contextual understanding of language.
 
